@@ -46,7 +46,7 @@ final_number+=5
 
 # 5. multiply by 2
 final_number*=2
- 
+
 # 6. subtract 4
 final_number-=4
 
@@ -58,3 +58,8 @@ final_number-=first_number
 
 # 9. show the final number back to the user
 puts "Always #{final_number}"
+
+# Always 3 Ruby script refactored again to be only three lines and to use a single variable.
+puts "Give me a number"
+first_number = gets.to_i
+puts 'Always' + (((first_number + 5) * 2 - 4) / 2 - first_number).to_s # math on a single line using order of operations
