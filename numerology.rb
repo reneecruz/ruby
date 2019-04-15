@@ -38,7 +38,7 @@ when 6
 when 7
   puts "Your numerology number is #{number}.\nThis is the deep thinker. The number seven is a spiritual vibration. These people are not very attached to material things, are introspective, and generally quiet. Ruled by Neptune."
 when 8
-  puts "Your numerology numer is #{numer}.\nThis is the manager. Number Eight is a strong, successful, and material vibration. Ruled by Saturn."
+  puts "Your numerology numer is #{number}.\nThis is the manager. Number Eight is a strong, successful, and material vibration. Ruled by Saturn."
 when 9
   puts "Your numerology number is #{number}.\nThis is the teacher. Number Nine is a tolerant, somewhat impractical, and sympathetic vibration. Ruled by Mars."
 else
