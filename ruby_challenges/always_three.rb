@@ -64,7 +64,7 @@ puts "Give me a number"
 first_number = gets.to_i
 puts 'Always' + (((first_number + 5) * 2 - 4) / 2 - first_number).to_s # math on a single line using order of operations
 
-# refactor to be a method
+# refactored to be a method
 def always_three
   puts "Give me a number"
   first_number = gets.to_i
@@ -72,3 +72,13 @@ def always_three
 end
 
 always_three
+
+# refactored to pass in arguemnts to the method
+def always_three(number)
+  (((number + 5) * 2 - 4) / 2 - number)
+end
+
+puts "Give me a number"
+users_number = gets.to_i
+
+puts 'Always' + always_three(users_number).to_s
